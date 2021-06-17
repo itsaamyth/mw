@@ -1,0 +1,142 @@
+/* testimonial slider css start */
+.solar_testimonial {
+    /* padding: 200px 0 200px; */
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+.solar_testimonial_box img {
+    border-radius: 5px;
+	box-shadow: 4px 4px 0 0px #3ba2ff;
+}
+.solar_testimonial_box h5 {
+    color: #127DC2;
+    margin: 30px 0 15px;
+}
+.solar_testimonial_box a {
+    color: #2F7C8C;
+}
+.solar_testimonial_box p {
+    margin: 15px 0 0;
+}
+.solar_testimonial_slider .swiper-container {
+      width: 100%;
+      height: 100%;
+}
+.solar_testimonial_slider .swiper-slide {
+	  text-align: center;
+	  font-size: 18px;
+	  background: #fff;
+	  /* Center slide text vertically */
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-pack: center;
+	  -ms-flex-pack: center;
+	  -webkit-justify-content: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -ms-flex-align: center;
+	  -webkit-align-items: center;
+	  align-items: center;
+}
+.solar_testimonial_slider .swiper-container {
+    padding: 50px 0;
+}
+.solar_testimonial_slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    padding: 5px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.solar_testimonial_slider .swiper-pagination-bullet-active {
+    background: #2F7C8C;
+}
+.solar_testimonial_slider .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: none;
+}
+.solar_testimonial_slider .swiper-button-prev:after {
+    position: absolute;
+	content: '\f104';
+	font-family: "FontAwesome";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 30px;
+    background: linear-gradient(to right, #007bff, #2F7C8C);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100px;
+}
+@media (max-width: 768px) {
+    .solar_testimonial_slider .swiper-button-prev:after {
+        display: none;
+    }
+    .solar_testimonial_slider .swiper-button-next:after {
+        display: none;
+    }
+    .swiper-button-next {
+        display: none;
+    }
+
+  }
+.solar_testimonial_slider .swiper-button-next:after {
+    position: absolute;
+	content: '\f105';
+	font-family: "FontAwesome";
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 30px;
+    background: linear-gradient(to right, #007bff, #2F7C8C);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100px;
+	left: -25px;
+}
+.solar_testimonial_slider .swiper-button-prev:hover:after , 
+.solar_testimonial_slider .swiper-button-next:hover:after {
+    background: linear-gradient(to right, #2F7C8C, #127DC2);
+	transition: 1s;
+}
+/* testimonial slider css start */
+/* bottom to top scroll start */
+.solar_top_icon #button {
+    display: inline-block;
+    background: linear-gradient(to right, #007bff, #2F7C8C);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, ;
+      opacity: .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .solar_top_icon #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 50px;
+    color: #fff;
+  }
+  .solar_top_icon #button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 25px #127DC2 inset;
+  }
+  .solar_top_icon #button:active {
+    background-color: #555;
+  }
+  .solar_top_icon #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* bottom to top scroll end */

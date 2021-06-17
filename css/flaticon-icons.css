@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'flaticon';
+  src:  url('../fonts/flaticon9e8a.eot?qmm78f');
+  src:  url('../fonts/flaticon9e8a.eot?qmm78f#iefix') format('embedded-opentype'),
+    url('../fonts/flaticon9e8a.ttf?qmm78f') format('truetype'),
+    url('../fonts/flaticon9e8a.woff?qmm78f') format('woff'),
+    url('../fonts/flaticon9e8a.svg?qmm78f#flaticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'flaticon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-clean-machine:before {
+  content: "\e901";
+}
+.icon-consulting:before {
+  content: "\e902";
+}
+.icon-electrical-network:before {
+  content: "\e903";
+}
+.icon-green-planet:before {
+  content: "\e904";
+}
+.icon-home-appliance:before {
+  content: "\e905";
+}
+.icon-innovation:before {
+  content: "\e906";
+}
+.icon-instant-power:before {
+  content: "\e907";
+}
+.icon-maintenance:before {
+  content: "\e908";
+}
+.icon-pressure:before {
+  content: "\e909";
+}
+.icon-remote-contorl:before {
+  content: "\e90a";
+}
+.icon-solar-maintenance:before {
+  content: "\e90b";
+}
+.icon-solar-system:before {
+  content: "\e90c";
+}
+.icon-team:before {
+  content: "\e90d";
+}
+.icon-technology:before {
+  content: "\e90e";
+}
+.icon-turbines:before {
+  content: "\e90f";
+}
+.icon-washing:before {
+  content: "\e910";
+}
+.icon-water-per-second:before {
+  content: "\e911";
+}
+.icon-water:before {
+  content: "\e912";
+}
+.icon-wind-turbines:before {
+  content: "\e913";
+}
